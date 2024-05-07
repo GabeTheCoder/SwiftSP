@@ -29,12 +29,31 @@ public enum SPError : Swift.Error {
   case issue
   case unhandled
 }
+public enum SPStatus {
+  case ready
+  case pending
+  case invalid
+  case complete
+  public static func == (a: SwiftSP.SPStatus, b: SwiftSP.SPStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public typealias Response = (any Swift.Encodable)?
+public struct Package {
+}
 public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
   func handle(request: SwiftSP.Request) async throws -> SwiftSP.Response
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  func package() async throws -> SwiftSP.Package
+  #endif
+  func update(status: SwiftSP.SPStatus)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RepresentedView : UIKit.UIView {
   @objc deinit
 }
+extension SwiftSP.SPStatus : Swift.Equatable {}
+extension SwiftSP.SPStatus : Swift.Hashable {}
