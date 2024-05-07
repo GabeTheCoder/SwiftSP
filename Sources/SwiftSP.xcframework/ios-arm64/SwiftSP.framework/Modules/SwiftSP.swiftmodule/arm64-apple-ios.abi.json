@@ -1,0 +1,1253 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SwiftSP"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SwiftSP"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPView",
+        "printedName": "SPView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SPView",
+                "printedName": "SwiftSP.SPView",
+                "usr": "s:7SwiftSP6SPViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SPModel",
+                "printedName": "SwiftSP.SPModel",
+                "usr": "s:7SwiftSP7SPModelP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftSP6SPViewV5modelAcA7SPModel_p_tcfc",
+            "mangledName": "$s7SwiftSP6SPViewV5modelAcA7SPModel_p_tcfc",
+            "moduleName": "SwiftSP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RepresentedView",
+                "printedName": "SwiftSP.RepresentedView",
+                "usr": "c:@M@SwiftSP@objc(cs)RepresentedView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<SwiftSP.SPView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPView",
+                    "printedName": "SwiftSP.SPView",
+                    "usr": "s:7SwiftSP6SPViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP6SPViewV10makeUIView7contextAA15RepresentedViewC0A2UI0E20RepresentableContextVyACG_tF",
+            "mangledName": "$s7SwiftSP6SPViewV10makeUIView7contextAA15RepresentedViewC0A2UI0E20RepresentableContextVyACG_tF",
+            "moduleName": "SwiftSP",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RepresentedView",
+                "printedName": "SwiftSP.RepresentedView",
+                "usr": "c:@M@SwiftSP@objc(cs)RepresentedView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<SwiftSP.SPView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPView",
+                    "printedName": "SwiftSP.SPView",
+                    "usr": "s:7SwiftSP6SPViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP6SPViewV12updateUIView_7contextyAA15RepresentedViewC_0A2UI0E20RepresentableContextVyACGtF",
+            "mangledName": "$s7SwiftSP6SPViewV12updateUIView_7contextyAA15RepresentedViewC_0A2UI0E20RepresentableContextVyACGtF",
+            "moduleName": "SwiftSP",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftSP6SPViewV",
+        "mangledName": "$s7SwiftSP6SPViewV",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RepresentedView",
+                    "printedName": "SwiftSP.RepresentedView",
+                    "usr": "c:@M@SwiftSP@objc(cs)RepresentedView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPConfiguration",
+        "printedName": "SPConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:debug:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SPConfiguration",
+                "printedName": "SwiftSP.SPConfiguration",
+                "usr": "s:7SwiftSP15SPConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftSP15SPConfigurationV5token5debugACSS_Sbtcfc",
+            "mangledName": "$s7SwiftSP15SPConfigurationV5token5debugACSS_Sbtcfc",
+            "moduleName": "SwiftSP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP15SPConfigurationV9configureyyF",
+            "mangledName": "$s7SwiftSP15SPConfigurationV9configureyyF",
+            "moduleName": "SwiftSP",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftSP15SPConfigurationV",
+        "mangledName": "$s7SwiftSP15SPConfigurationV",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Request",
+        "printedName": "Request",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "match",
+            "printedName": "match(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP7RequestV5matchySbxSYRzSS8RawValueRtzlF",
+            "mangledName": "$s7SwiftSP7RequestV5matchySbxSYRzSS8RawValueRtzlF",
+            "moduleName": "SwiftSP",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RawRepresentable, τ_0_0.RawValue == Swift.String>",
+            "sugared_genericSig": "<T where T : Swift.RawRepresentable, T.RawValue == Swift.String>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "match",
+            "printedName": "match(_:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_1.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP7RequestV5match_7requestq_Sgx_q_mtSYRzSeR_SS8RawValueRtzr0_lF",
+            "mangledName": "$s7SwiftSP7RequestV5match_7requestq_Sgx_q_mtSYRzSeR_SS8RawValueRtzr0_lF",
+            "moduleName": "SwiftSP",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.RawRepresentable, τ_0_1 : Swift.Decodable, τ_0_0.RawValue == Swift.String>",
+            "sugared_genericSig": "<T, R where T : Swift.RawRepresentable, R : Swift.Decodable, T.RawValue == Swift.String>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftSP7RequestV",
+        "mangledName": "$s7SwiftSP7RequestV",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPError",
+        "printedName": "SPError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "code",
+            "printedName": "code",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftSP.SPError.Type) -> (Swift.String) -> SwiftSP.SPError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SwiftSP.SPError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPError",
+                        "printedName": "SwiftSP.SPError",
+                        "usr": "s:7SwiftSP7SPErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftSP.SPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPError",
+                        "printedName": "SwiftSP.SPError",
+                        "usr": "s:7SwiftSP7SPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SwiftSP7SPErrorO4codeyACSScACmF",
+            "mangledName": "$s7SwiftSP7SPErrorO4codeyACSScACmF",
+            "moduleName": "SwiftSP"
+          },
+          {
+            "kind": "Var",
+            "name": "issue",
+            "printedName": "issue",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftSP.SPError.Type) -> SwiftSP.SPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPError",
+                    "printedName": "SwiftSP.SPError",
+                    "usr": "s:7SwiftSP7SPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftSP.SPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPError",
+                        "printedName": "SwiftSP.SPError",
+                        "usr": "s:7SwiftSP7SPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SwiftSP7SPErrorO5issueyA2CmF",
+            "mangledName": "$s7SwiftSP7SPErrorO5issueyA2CmF",
+            "moduleName": "SwiftSP"
+          },
+          {
+            "kind": "Var",
+            "name": "unhandled",
+            "printedName": "unhandled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftSP.SPError.Type) -> SwiftSP.SPError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SPError",
+                    "printedName": "SwiftSP.SPError",
+                    "usr": "s:7SwiftSP7SPErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftSP.SPError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SPError",
+                        "printedName": "SwiftSP.SPError",
+                        "usr": "s:7SwiftSP7SPErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SwiftSP7SPErrorO9unhandledyA2CmF",
+            "mangledName": "$s7SwiftSP7SPErrorO9unhandledyA2CmF",
+            "moduleName": "SwiftSP"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7SwiftSP7SPErrorO",
+        "mangledName": "$s7SwiftSP7SPErrorO",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPModel",
+        "printedName": "SPModel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Encodable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "SwiftSP.Request",
+                "usr": "s:7SwiftSP7RequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftSP7SPModelP6handle7requestSE_pSgAA7RequestV_tYaKF",
+            "mangledName": "$s7SwiftSP7SPModelP6handle7requestSE_pSgAA7RequestV_tYaKF",
+            "moduleName": "SwiftSP",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftSP.SPModel>",
+            "sugared_genericSig": "<Self where Self : SwiftSP.SPModel>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftSP7SPModelP",
+        "mangledName": "$s7SwiftSP7SPModelP",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RepresentedView",
+        "printedName": "RepresentedView",
+        "declKind": "Class",
+        "usr": "c:@M@SwiftSP@objc(cs)RepresentedView",
+        "mangledName": "$s7SwiftSP15RepresentedViewC",
+        "moduleName": "SwiftSP",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 767,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1096,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "FloatLiteral",
+      "offset": 1358,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1405,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1587,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 2003,
+      "length": 15,
+      "value": "\"SwiftSP error\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 2129,
+      "length": 442,
+      "value": "\"    <!DOCTYPE html>\n    <html lang=\"en\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\">\n            <title>Document<\/title>\n        <\/head>\n        <body>\n            \n        <\/body>\n    <\/html>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 3286,
+      "length": 14,
+      "value": "\"invalidModel\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 3559,
+      "length": 14,
+      "value": "\"invalidModel\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 3831,
+      "length": 14,
+      "value": "\"invalidModel\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 4101,
+      "length": 14,
+      "value": "\"invalidModel\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 4262,
+      "length": 14,
+      "value": "\"invalidModel\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 6584,
+      "length": 12,
+      "value": "\"invalidUrl\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 6721,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 6761,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "Dictionary",
+      "offset": 6896,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7091,
+      "length": 19,
+      "value": "\"networkConnection\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7203,
+      "length": 17,
+      "value": "\"networkResponse\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7409,
+      "length": 39,
+      "value": "\"https:\/\/api.authsnap.io\/apps\/validate\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7476,
+      "length": 12,
+      "value": "\"invalidUrl\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7573,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7605,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7645,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7833,
+      "length": 19,
+      "value": "\"networkConnection\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 7968,
+      "length": 17,
+      "value": "\"invalidResponse\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8138,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9146,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9330,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "FloatLiteral",
+      "offset": 9395,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9853,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9928,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10005,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10084,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11008,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 11066,
+      "length": 1332,
+      "value": "\"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document<\/title>\n<\/head>\n<body>\n    <div id=\"logs\">\n        \n    <\/div>\n<a href=\"https:\/\/geekyinteractive.com\">TEST LINK<\/a>\n    <script>\n        async function test() {\n            let logs = document.getElementById(\"logs\");\n\/\/\/\/            logs.innerHTML = \"test\";\n            \n            try {\n                window.app.subscribe(state => {\n                    logs.innerHTML = JSON.stringify(state);\n                });\n            } catch (e) {\n\/\/                    logs.innerHTML = window.app.subscribe ? \"yes\" : \"issue subscribing\";\n}\n            \n            try {\n                let result = await window.app.request(\"internal\", \"network\", { method: 'POST', url: 'https:\/\/geekyinteractive.com' });\n                logs.innerHTML = \"done\";\n                logs.innerText = JSON.stringify(result);\n\n\/\/                let resultb = await window.app.request(\"internal\", \"fund\", { amount: 420 });\n            } catch (e) {\n\/\/                logs.innerHTML = \"error \" + JSON.stringify(e);\n            }\n        }\n    <\/script>\n    <button style=\"width: 1000px; height: 1000px; background: brown; font-size: 48px\" onclick=\"test()\">Test<\/button>\n    \n<\/body>\n<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 12469,
+      "length": 9,
+      "value": "\"<\/head>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 12486,
+      "length": 37,
+      "value": "\"<script>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 12506,
+      "length": 2,
+      "value": "\"<\/script><\/head>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 12554,
+      "length": 13,
+      "value": "\"load string\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "FloatLiteral",
+      "offset": 12846,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "FloatLiteral",
+      "offset": 12969,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13016,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13119,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 13224,
+      "length": 20,
+      "value": "\"handlerUnavailable\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 14113,
+      "length": 17,
+      "value": "\"invalidResponse\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 14663,
+      "length": 14,
+      "value": "\"handlerIssue\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15053,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15351,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15379,
+      "length": 48,
+      "value": "\"window.app.resolve('\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15412,
+      "length": 15,
+      "value": "\"', \""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15424,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15596,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15624,
+      "length": 47,
+      "value": "\"window.app.reject('\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15656,
+      "length": 15,
+      "value": "\"', \""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15668,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15815,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15843,
+      "length": 31,
+      "value": "\"window.app.update(\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 15871,
+      "length": 1,
+      "value": "\");\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 16063,
+      "length": 3209,
+      "value": "\"    window.app = {};\n    \n    window.app.requests = {};\n    window.app.responses = {};\n    \n    window.app.state = {};\n    window.app.subscribers = {};\n    \n    window.app.error = e => `{\"id\":\"${e.id}\",\"type\":\"error\",\"func\":\"${e.func}\",\"data\":{\"code\":\"${e.code}\"}}`;\n    \n    window.app.request = (type, func, data) => new Promise((resolve, reject) => {\n        const id = Math.random().toString(36);\n        \n        try {\n            const request = { id, type, func, data: data ? data : \"null\" };\n            window.app.requests[id] = request;\n            \n            const string = JSON.stringify(request);\n            window.app.responses[id] = { resolve, reject };\n            window.webkit.messageHandlers.default.postMessage(string);\n        } catch (e) {\n            const error = window.app.error({ id, func, code: 'invalidRequest' });\n            window.webkit.messageHandlers.default.postMessage(error);\n        }\n    });\n    \n    window.app.resolve = (id, data) => {\n        if (!window.app.responses[id]) {\n            const request = window.app.requests[id];\n            const func = request ? request.func : 'error';\n            const error = window.app.error({ id, func, code: 'requestUnavailable' });\n            window.webkit.messageHandlers.default.postMessage(error);\n            return;\n        }\n        \n        window.app.responses[id].resolve(data);\n        delete window.app.responses[id];\n    };\n    \n    window.app.reject = (id, data) => {\n        if (!window.app.responses[id]) {\n            const request = window.app.requests[id];\n            const func = request ? request.func : 'error';\n            const error = window.app.error({ id, func, code: 'requestUnavailable' });\n            window.webkit.messageHandlers.default.postMessage(error);\n            return;\n        }\n        \n        window.app.responses[id].reject(data);\n        delete window.app.responses[id];\n    };\n    \n    window.app.subscribe = func => {\n        const id = Math.random().toString(36);\n        window.app.subscribers[id] = func;\n        return id;\n    };\n    \n    window.app.unsubscribe = id => {\n        if (window.app.subscribers[id]) delete window.app.subscribers[id];\n    };\n    \n    window.app.update = state => {\n        Object.values(window.app.subscribers).forEach(subscriber => {\n            try {\n                subscriber(state);\n            } catch (e) {}\n        });\n    };\n    \n    window.app.init = async () => {\n        try {\n            await window.app.request('internal', 'initial');\n        } catch (e) {}\n    };\n    \n    window.app.init();\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 19908,
+      "length": 9,
+      "value": "\"default\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20007,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20058,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "Array",
+      "offset": 20115,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 20772,
+      "length": 6,
+      "value": "\"link\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 21680,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 21746,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 21814,
+      "length": 6,
+      "value": "\"func\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 21993,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 22197,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 22388,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 22416,
+      "length": 6,
+      "value": "\"null\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 22591,
+      "length": 31,
+      "value": "\"{\"code\":\"invalidRequest\"}\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 23365,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 23443,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 23483,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

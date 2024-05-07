@@ -1,0 +1,4 @@
+framework module SwiftSP {
+  header "SwiftSP-Swift.h"
+  requires objc
+}

@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftSP
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Swift
+import SwiftUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct SPView : SwiftUI.UIViewRepresentable {
+  public init(model: any SwiftSP.SPModel)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: SwiftSP.SPView.Context) -> SwiftSP.RepresentedView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: SwiftSP.RepresentedView, context: SwiftSP.SPView.Context)
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Swift.Void
+  public typealias UIViewType = SwiftSP.RepresentedView
+}
+public struct SPConfiguration {
+  public init(token: Swift.String, debug: Swift.Bool = true)
+  public func configure()
+}
+public struct Request {
+  public func match<T>(_ type: T) -> Swift.Bool where T : Swift.RawRepresentable, T.RawValue == Swift.String
+  public func match<T, R>(_ type: T, request: R.Type) -> R? where T : Swift.RawRepresentable, R : Swift.Decodable, T.RawValue == Swift.String
+}
+public enum SPError : Swift.Error {
+  case code(Swift.String)
+  case issue
+  case unhandled
+}
+public typealias Response = (any Swift.Encodable)?
+public protocol SPModel {
+  #if compiler(>=5.3) && $AsyncAwait
+  func handle(request: SwiftSP.Request) async throws -> SwiftSP.Response
+  #endif
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RepresentedView : UIKit.UIView {
+  @objc deinit
+}
