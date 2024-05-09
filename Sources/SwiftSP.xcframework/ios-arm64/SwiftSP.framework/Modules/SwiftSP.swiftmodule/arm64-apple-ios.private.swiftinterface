@@ -42,6 +42,7 @@ public enum SPStatus {
 }
 public typealias SPResponse = (any Swift.Encodable)?
 public struct SPPackage {
+  public init(string: Swift.String, compressed: Swift.Bool = false)
 }
 public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
