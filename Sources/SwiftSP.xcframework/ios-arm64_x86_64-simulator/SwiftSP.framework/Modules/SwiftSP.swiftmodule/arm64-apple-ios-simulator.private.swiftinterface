@@ -20,7 +20,7 @@ public struct SPConfiguration {
   public init(token: Swift.String, debug: Swift.Bool = true)
   public func configure()
 }
-public struct Request {
+public struct SPRequest {
   public func match<T>(_ type: T) -> Swift.Bool where T : Swift.RawRepresentable, T.RawValue == Swift.String
   public func match<T, R>(_ type: T, request: R.Type) -> R? where T : Swift.RawRepresentable, R : Swift.Decodable, T.RawValue == Swift.String
 }
@@ -40,17 +40,26 @@ public enum SPStatus {
     get
   }
 }
-public typealias Response = (any Swift.Encodable)?
+public typealias SPResponse = (any Swift.Encodable)?
 public struct Package {
 }
 public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
-  func handle(request: SwiftSP.Request) async throws -> SwiftSP.Response
+  func handle(request: SwiftSP.SPRequest) async throws -> SwiftSP.SPResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   func package() async throws -> SwiftSP.Package
   #endif
   func update(status: SwiftSP.SPStatus)
+}
+extension SwiftSP.SPModel {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func handle(request: SwiftSP.SPRequest) async throws -> SwiftSP.SPResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func package() async throws -> SwiftSP.Package
+  #endif
+  public func update(status: SwiftSP.SPStatus)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RepresentedView : UIKit.UIView {
   @objc deinit
