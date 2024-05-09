@@ -41,14 +41,14 @@ public enum SPStatus {
   }
 }
 public typealias SPResponse = (any Swift.Encodable)?
-public struct Package {
+public struct SPPackage {
 }
 public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
   func handle(request: SwiftSP.SPRequest) async throws -> SwiftSP.SPResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  func package() async throws -> SwiftSP.Package
+  func package() async throws -> SwiftSP.SPPackage
   #endif
   func update(status: SwiftSP.SPStatus)
 }
@@ -57,7 +57,7 @@ extension SwiftSP.SPModel {
   public func handle(request: SwiftSP.SPRequest) async throws -> SwiftSP.SPResponse
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func package() async throws -> SwiftSP.Package
+  public func package() async throws -> SwiftSP.SPPackage
   #endif
   public func update(status: SwiftSP.SPStatus)
 }
