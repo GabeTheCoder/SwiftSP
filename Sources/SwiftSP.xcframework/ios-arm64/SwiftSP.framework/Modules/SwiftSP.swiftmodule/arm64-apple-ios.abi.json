@@ -19,6 +19,20 @@
         "moduleName": "SwiftSP"
       },
       {
+        "kind": "Import",
+        "name": "System",
+        "printedName": "System",
+        "declKind": "Import",
+        "moduleName": "SwiftSP"
+      },
+      {
+        "kind": "Import",
+        "name": "AppleArchive",
+        "printedName": "AppleArchive",
+        "declKind": "Import",
+        "moduleName": "SwiftSP"
+      },
+      {
         "kind": "TypeDecl",
         "name": "SPView",
         "printedName": "SPView",
@@ -1106,681 +1120,744 @@
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 767,
+      "offset": 801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 1085,
+      "offset": 1119,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 1096,
+      "offset": 1130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1158,
+      "offset": 1192,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1198,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1174,
+      "offset": 1208,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 1221,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "FloatLiteral",
-      "offset": 1358,
+      "offset": 1392,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 1405,
+      "offset": 1439,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 1482,
+      "offset": 1516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 1587,
+      "offset": 1621,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 1916,
+      "offset": 1950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 1931,
+      "offset": 1965,
       "length": 42,
       "value": "\"_UIConstraintBasedLayoutLogUnsatisfiable\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 2105,
+      "offset": 2139,
       "length": 15,
       "value": "\"SwiftSP error\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 2235,
+      "offset": 2269,
       "length": 442,
       "value": "\"    <!DOCTYPE html>\n    <html lang=\"en\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover\">\n            <title>Document<\/title>\n        <\/head>\n        <body>\n            \n        <\/body>\n    <\/html>\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 3394,
+      "offset": 3428,
       "length": 14,
       "value": "\"invalidModel\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 3667,
+      "offset": 3701,
       "length": 14,
       "value": "\"invalidModel\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 3939,
+      "offset": 3973,
       "length": 14,
       "value": "\"invalidModel\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4243,
       "length": 14,
       "value": "\"invalidModel\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 4370,
+      "offset": 4404,
       "length": 14,
       "value": "\"invalidModel\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 4896,
+      "offset": 4930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 5376,
+      "offset": 5410,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 5392,
+      "offset": 5426,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 7505,
+      "offset": 7539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 7741,
+      "offset": 7775,
       "length": 12,
       "value": "\"invalidUrl\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 7878,
+      "offset": 7912,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 7918,
+      "offset": 7952,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "Dictionary",
-      "offset": 8053,
+      "offset": 8087,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8248,
+      "offset": 8282,
       "length": 19,
       "value": "\"networkConnection\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 8394,
       "length": 17,
       "value": "\"networkResponse\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8566,
+      "offset": 8600,
       "length": 39,
       "value": "\"https:\/\/api.authsnap.io\/apps\/validate\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8633,
+      "offset": 8667,
       "length": 12,
       "value": "\"invalidUrl\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8730,
+      "offset": 8764,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8762,
+      "offset": 8796,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8802,
+      "offset": 8836,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 8990,
+      "offset": 9024,
       "length": 19,
       "value": "\"networkConnection\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 9125,
+      "offset": 9159,
       "length": 17,
       "value": "\"invalidResponse\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "IntegerLiteral",
-      "offset": 9295,
+      "offset": 9329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 10186,
+      "offset": 10262,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 10303,
+      "offset": 10379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 10333,
+      "offset": 10409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 10390,
+      "offset": 10466,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 10487,
+      "offset": 10563,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "FloatLiteral",
-      "offset": 10552,
+      "offset": 10628,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 11010,
+      "offset": 11086,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 11085,
+      "offset": 11161,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 11162,
+      "offset": 11238,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 11241,
+      "offset": 11317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 12165,
+      "offset": 12241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12500,
-      "length": 9,
-      "value": "\"<\/head>\""
-    },
-    {
-      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
-      "kind": "StringLiteral",
-      "offset": 12573,
+      "offset": 12668,
       "length": 16,
       "value": "\"invalidPackage\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12597,
+      "offset": 12692,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12822,
+      "offset": 13006,
+      "length": 9,
+      "value": "\"<\/head>\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 13079,
+      "length": 16,
+      "value": "\"invalidPackage\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 13103,
+      "length": 9,
+      "value": "\"package\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 13328,
       "length": 30,
       "value": "\"<script>\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12842,
+      "offset": 13348,
       "length": 2,
       "value": "\"<\/script>\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12922,
+      "offset": 13421,
       "length": 9,
       "value": "\"<\/head>\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12939,
+      "offset": 13438,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 12949,
+      "offset": 13448,
       "length": 2,
       "value": "\"<\/head>\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 13134,
+      "offset": 13634,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 13333,
+      "offset": 13833,
       "length": 16,
       "value": "\"invalidPackage\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 13357,
+      "offset": 13857,
       "length": 9,
       "value": "\"package\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "FloatLiteral",
-      "offset": 13575,
+      "offset": 14075,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 13622,
+      "offset": 14122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "FloatLiteral",
-      "offset": 13809,
+      "offset": 14309,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 13856,
+      "offset": 14356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 14069,
+      "offset": 14569,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 14174,
+      "offset": 14674,
       "length": 20,
       "value": "\"handlerUnavailable\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 15065,
+      "offset": 15565,
       "length": 17,
       "value": "\"invalidResponse\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 15615,
+      "offset": 16115,
       "length": 14,
       "value": "\"handlerIssue\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16005,
+      "offset": 16505,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16303,
+      "offset": 16803,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16331,
+      "offset": 16831,
       "length": 48,
       "value": "\"window.app.resolve('\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16364,
+      "offset": 16864,
       "length": 15,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16376,
+      "offset": 16876,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16548,
+      "offset": 17048,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16576,
+      "offset": 17076,
       "length": 47,
       "value": "\"window.app.reject('\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16608,
+      "offset": 17108,
       "length": 15,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16620,
+      "offset": 17120,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16767,
+      "offset": 17267,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16795,
+      "offset": 17295,
       "length": 31,
       "value": "\"window.app.update(\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 16823,
+      "offset": 17323,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 17015,
+      "offset": 17515,
       "length": 3600,
       "value": "\"    window.app = {};\n    \n    window.app.requests = {};\n    window.app.responses = {};\n    \n    window.app.state = {};\n    window.app.subscribers = {};\n    \n    window.app.error = e => `{\"id\":\"${e.id}\",\"type\":\"error\",\"func\":\"${e.func}\",\"data\":{\"code\":\"${e.code}\"}}`;\n    \n    window.app.request = (type, func, data) => new Promise((resolve, reject) => {\n        const id = Math.random().toString(36);\n        \n        try {\n            const request = { id, type, func, data: data ? data : \"null\" };\n            window.app.requests[id] = request;\n            \n            const string = JSON.stringify(request);\n            window.app.responses[id] = { resolve, reject };\n            window.webkit.messageHandlers.default.postMessage(string);\n        } catch (e) {\n            const error = window.app.error({ id, func, code: 'invalidRequest' });\n            window.webkit.messageHandlers.default.postMessage(error);\n            reject({ code: 'invalidRequest', func, invalid: null });\n        }\n    });\n    \n    window.app.resolve = (id, data) => {\n        if (!window.app.responses[id]) {\n            const request = window.app.requests[id];\n            const func = request ? request.func : 'error';\n            const error = window.app.error({ id, func, code: 'requestUnavailable' });\n            window.webkit.messageHandlers.default.postMessage(error);\n            return;\n        }\n        \n        window.app.responses[id].resolve(data);\n        delete window.app.responses[id];\n    };\n    \n    window.app.reject = (id, data) => {\n        if (!window.app.responses[id]) {\n            const request = window.app.requests[id];\n            const func = request ? request.func : 'error';\n            const error = window.app.error({ id, func, code: 'requestUnavailable' });\n            window.webkit.messageHandlers.default.postMessage(error);\n            return;\n        }\n        \n        window.app.responses[id].reject(data);\n        delete window.app.responses[id];\n    };\n    \n    window.app.subscribe = func => {\n        const id = Math.random().toString(36);\n        window.app.subscribers[id] = func;\n        return id;\n    };\n    \n    window.app.unsubscribe = id => {\n        if (window.app.subscribers[id]) delete window.app.subscribers[id];\n    };\n    \n    window.app.update = state => {\n        Object.values(window.app.subscribers).forEach(subscriber => {\n            try {\n                subscriber(state);\n            } catch (e) {}\n        });\n    };\n    \n    window.app.init = async () => {\n        try {\n            await window.app.request('internal', 'initial');\n        } catch (e) {}\n    };\n    \n    window.app.log = message => {\n        const run = async () => {\n            try {\n                await window.app.request('internal', 'log', { message });\n            } catch (e) {}\n        };\n        \n        run();\n    };\n    \n    window.app.init();\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 21251,
+      "offset": 21960,
       "length": 9,
       "value": "\"default\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 21350,
+      "offset": 22059,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "BooleanLiteral",
-      "offset": 21401,
+      "offset": 22110,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "Array",
-      "offset": 21458,
+      "offset": 22167,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 22148,
+      "offset": 22857,
       "length": 6,
       "value": "\"link\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23056,
+      "offset": 23765,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23122,
+      "offset": 23831,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23190,
+      "offset": 23899,
       "length": 6,
       "value": "\"func\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23369,
+      "offset": 24078,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23573,
+      "offset": 24282,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23764,
+      "offset": 24473,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23792,
+      "offset": 24501,
       "length": 6,
       "value": "\"null\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 23967,
+      "offset": 24676,
       "length": 31,
       "value": "\"{\"code\":\"invalidRequest\"}\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 24741,
+      "offset": 25450,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 24819,
+      "offset": 25528,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
       "kind": "StringLiteral",
-      "offset": 24859,
+      "offset": 25568,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 25831,
+      "length": 10,
+      "value": "\".archive\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "StringLiteral",
+      "offset": 27084,
+      "length": 10,
+      "value": "\".archive\""
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27416,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "Array",
+      "offset": 28418,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gabethecoder\/SwiftSPF\/SwiftSPF\/SwiftSP.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28498,
+      "length": 5,
+      "value": "0o644"
     }
   ]
 }
