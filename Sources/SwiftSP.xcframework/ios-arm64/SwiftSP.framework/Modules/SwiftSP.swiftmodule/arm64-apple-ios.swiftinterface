@@ -48,7 +48,7 @@ public struct SPPackage {
 }
 public class SPProvider {
   public init()
-  public func update(_ updated: SwiftSP.SPResponse)
+  public func update(state: SwiftSP.SPResponse)
   @objc deinit
 }
 public protocol SPModel {
