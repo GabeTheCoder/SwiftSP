@@ -46,6 +46,9 @@ public typealias SPResponse = (any Swift.Encodable)?
 public struct SPPackage {
   public init(string: Swift.String, compressed: Swift.Bool = false)
 }
+@_hasMissingDesignatedInitializers public class SPState {
+  @objc deinit
+}
 public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
   func handle(request: SwiftSP.SPRequest) async throws -> SwiftSP.SPResponse
@@ -53,6 +56,7 @@ public protocol SPModel {
   #if compiler(>=5.3) && $AsyncAwait
   func package() async throws -> SwiftSP.SPPackage
   #endif
+  func state() -> SwiftSP.SPState
   func update(status: SwiftSP.SPStatus)
 }
 extension SwiftSP.SPModel {
@@ -62,6 +66,7 @@ extension SwiftSP.SPModel {
   #if compiler(>=5.3) && $AsyncAwait
   public func package() async throws -> SwiftSP.SPPackage
   #endif
+  public func state() -> SwiftSP.SPState
   public func update(status: SwiftSP.SPStatus)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class RepresentedView : UIKit.UIView {
