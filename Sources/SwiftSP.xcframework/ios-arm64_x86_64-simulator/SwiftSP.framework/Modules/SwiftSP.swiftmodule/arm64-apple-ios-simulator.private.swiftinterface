@@ -46,7 +46,8 @@ public typealias SPResponse = (any Swift.Encodable)?
 public struct SPPackage {
   public init(string: Swift.String, compressed: Swift.Bool = false)
 }
-@_hasMissingDesignatedInitializers public class SPProvider {
+public class SPProvider {
+  public init()
   @objc deinit
 }
 public protocol SPModel {
